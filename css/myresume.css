@@ -52,7 +52,6 @@ h3 {
   border-radius: 50%;
   z-index: 1;
 }
-
 /* Place the container to the left */
 .timeline-left {
   left: 0;
@@ -61,6 +60,11 @@ h3 {
 /* Place the container to the right */
 .timeline-right {
   left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.timeline-right::after {
+  left: -12px;
 }
 
 .subheading {
