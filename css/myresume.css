@@ -25,7 +25,7 @@ h3 {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #bd5d38;
+  background-color: #38acbd;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -47,7 +47,7 @@ h3 {
   height: 25px;
   right: -12px;
   background-color: white;
-  border: 4px solid #bd5d38;
+  border: 4px solid #38acbd;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
